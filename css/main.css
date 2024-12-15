@@ -45,6 +45,7 @@ body {
 .bn-intro-content {
   padding: 80px 0;
   display: flex;
+  padding-bottom: 0px;
 }
 
 .bn-intro-title {
@@ -148,6 +149,7 @@ body {
 .bn-intro-swiper {
   margin-top: 40px;
   position: relative;
+  padding-bottom: 80px;
 }
 
 .bn-intro-swiper-block {
@@ -175,7 +177,6 @@ body {
   overflow: hidden;
 }
 
-/* Individual Slide */
 .discount-card {
   display: flex;
   flex-direction: column;
@@ -193,10 +194,9 @@ body {
   margin-bottom: 10px;
 }
 
-/* Custom Navigation Buttons */
 .custom-nav {
   position: absolute;
-  top: 50%;
+  top: 25%;
   transform: translateY(-50%);
   z-index: 10;
   cursor: pointer;
