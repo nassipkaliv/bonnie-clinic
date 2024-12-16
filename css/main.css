@@ -263,3 +263,114 @@ body {
   line-height: 130%;
   color: var(--blue);
 }
+
+.bn-section-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 120%;
+  text-align: center;
+  color: var(--blue);
+}
+
+.bn-specialization-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  max-width: 1200px;
+  margin-top: 40px;
+}
+
+.bn-grid-item {
+  border-radius: 10px;
+  min-height: 500px;
+  max-height: 500px;
+  position: relative;
+  padding: 20px 30px;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: flex-end; 
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.bn-grid-small-item {
+  border-radius: 10px;
+  min-height: 240px;
+  max-height: 240px;
+  position: relative;
+  padding: 20px 30px;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: flex-end; 
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.bn-grid-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bn-grid-item-bg1 {
+  background: url("../images/bn-grid-item1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.bn-grid-item-bg2 {
+  background: url("../images/bn-grid-item2.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.bn-grid-item-bg3 {
+  background: url("../images/bn-grid-item3.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.bn-grid-item-bg4 {
+  background: url("../images/bn-grid-item4.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.bn-grid-item-bg5 {
+  background: url("../images/bn-grid-item5.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.bn-grid-item-bg6 {
+  background: url("../images/bn-grid-item6.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.bn-grid-item-bg7 {
+  background: url("../images/bn-grid-item7.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.bn-grid-item-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; 
+  position: relative; 
+}
+
+.bn-grid-item-text {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  color: #fff;
+}
+
+.bn-grid-item-arrow {
+  cursor: pointer;
+}
