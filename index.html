@@ -6,8 +6,8 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <script src="js/bootstrap.bundle.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   
   <title>Bonnie</title>
 </head>
@@ -95,7 +95,7 @@
       </div>
     </div>
     <div class="bn-intro-swiper">
-      <div class="swiper-container">
+      <div class="swiper-container swiper1">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="bn-intro-swiper-block">
@@ -395,10 +395,50 @@
   </div>
 </div>
 
+<div class="bn-section">
+  <div class="container">
+    <h1 class="bn-section-title text-center">Примеры работ</h1>
+    <div class="position-relative">
+      <div class="swiper swiperRabota">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/bn-rabota1.png" alt="bn-rabota-img" class="bn-rabota-img">
+            <div class="bn-rabotat-text text-center">Фототерапия BBL</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/bn-rabota2.png" alt="bn-rabota-img" class="bn-rabota-img">
+            <div class="bn-rabotat-text text-center">Фототерапия BBL</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/bn-rabota3.png" alt="bn-rabota-img" class="bn-rabota-img">
+            <div class="bn-rabotat-text text-center">Фототерапия BBL</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/bn-rabota1.png" alt="bn-rabota-img" class="bn-rabota-img">
+            <div class="bn-rabotat-text text-center">Фототерапия BBL</div>
+          </div>
+        </div>
+      </div>
+      <div class="custom-nav custom-nav2 prev-btn prev-btn2">
+        <img src="images/bn-swiper-left-arrow.png" alt="Previous">
+      </div>
+      <div class="custom-nav custom-nav2 next-btn next-btn2">
+        <img src="images/bn-swiper-right-arrow.png" alt="Next">
+      </div>      
+    </div>
+    <button class="bn-rabota-btn">
+      Посмотреть все результаты
+      <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1L5 5.5L1 10" stroke="white" stroke-linecap="round" />
+      </svg>
+    </button>
+  </div>
+</div>
+
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const swiper = new Swiper('.swiper-container', {
+  const swiper = new Swiper('.swiper1', {
     loop: true,
     slidesPerView: 4, 
     spaceBetween: 20,
@@ -420,8 +460,36 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   });
 });
-
 </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const swiper = new Swiper('.swiperRabota', {
+    slidesPerView: 3,
+    spaceBetween: 20,
+    navigation: {
+      nextEl: '.next-btn2',
+      prevEl: '.prev-btn2',
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      1300: {
+        slidesPerView: 3,
+        spaceBetween: 25,
+      }
+    },
+  });
+});
+
+  
+  </script>
 
 </body>
 </html>
