@@ -442,3 +442,70 @@ body {
   line-height: 120%;
   color: #fff;
 }
+
+.swiperRabota {
+  margin-top: 40px;
+}
+
+.bn-sectionBg2 {
+  background: #f7f9fb;
+}
+
+.bn-review-container {
+  display: flex;
+  gap: 20px;
+}
+
+.bn-review-container-left {
+  width: 75%;
+}
+
+.bn-review-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  color: var(--blue);
+  margin-top: 20px;
+  width: 80%;
+}
+
+.bn-review-services {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.bn-review-service-block {
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+  background: #fff;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.bn-review-service-block-text {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 130%;
+  color: var(--blue);
+}
+
+.bn-review-block {
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+  background: #fff;
+}
+
+.bn-review-block-text {
+  margin-top: 10px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: var(--blue);
+}
