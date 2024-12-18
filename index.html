@@ -630,6 +630,89 @@
   </div>
 </div>
 
+<div class="bn-section">
+  <div class="container">
+    <h1 class="bn-section-title text-center">Персонал</h1>
+    <div class="bn-section-text">Сплоченная команда опытных врачей, способных решить любую проблему с вашим здоровьем.</div>
+    <div class="position-relative">
+      <div class="swiper swiperPersonal">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="bn-personal-block">
+              <img src="images/bn-personal1.png" class="bn-personal-img" alt="personalImg">
+              <div class="bn-personal-block-content">
+                <div class="bn-personal-block-content-title">
+                  Валенчиц Геннадий Сергеевич
+                </div>
+                <div class="bn-personal-block-content-text">
+                  Терапевт, врач УЗД
+                </div>
+                <div class="bn-personal-block-content-text">
+                  13 лет стажа
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="bn-personal-block">
+              <img src="images/bn-personal2.png" class="bn-personal-img" alt="personalImg">
+              <div class="bn-personal-block-content">
+                <div class="bn-personal-block-content-title">
+                  Шаго <br> Ольга Александровна
+                </div>
+                <div class="bn-personal-block-content-text">
+                  Дермато-косметолог, нутрициолог, трихолог
+                </div>
+                <div class="bn-personal-block-content-text">
+                  15 лет стажа
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="bn-personal-block">
+              <img src="images/bn-personal3.png" class="bn-personal-img" alt="personalImg">
+              <div class="bn-personal-block-content">
+                <div class="bn-personal-block-content-title">
+                  Шуваев Василий Анатольевич
+                </div>
+                <div class="bn-personal-block-content-text">
+                  Гематолог, д.м.н
+                  <br><br>
+                </div>
+                <div class="bn-personal-block-content-text">
+                  15 лет стажа
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="bn-personal-block">
+              <img src="images/bn-personal4.png" class="bn-personal-img" alt="personalImg">
+              <div class="bn-personal-block-content">
+                <div class="bn-personal-block-content-title">
+                  Садыхова Эльмина Эльхановна
+                </div>
+                <div class="bn-personal-block-content-text">
+                  Акушер-гинеколог высшей категории, врач УЗД
+                </div>
+                <div class="bn-personal-block-content-text">
+                  15 лет стажа
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="custom-nav custom-nav2 prev-btn prev-btn3">
+        <img src="images/bn-swiper-left-arrow.png" alt="Previous">
+      </div>
+      <div class="custom-nav custom-nav2 next-btn next-btn3">
+        <img src="images/bn-swiper-right-arrow.png" alt="Next">
+      </div>  
+    </div>
+  </div>
+</div>
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
@@ -677,7 +760,7 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       1300: {
         slidesPerView: 3,
-        spaceBetween: 25,
+        spaceBetween: 20,
       }
     },
   });
@@ -704,12 +787,39 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         1300: {
           slidesPerView: 3,
-          spaceBetween: 25,
+          spaceBetween: 20,
         }
       },
     });
   });
-  </script>
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const swiper = new Swiper('.swiperPersonal', {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      navigation: {
+        nextEl: '.next-btn3',
+        prevEl: '.prev-btn3',
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 15,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 20,
+        },
+        1300: {
+          slidesPerView: 4,
+          spaceBetween: 20,
+        }
+      },
+    });
+  });
+</script>
 
 </body>
 </html>
