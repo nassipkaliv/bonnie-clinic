@@ -1002,6 +1002,39 @@
   </div>
 </div>
 
+<div class="bn-section">
+  <div class="container">
+    <h1 class="bn-section-title text-center">
+      Сертификаты и Лицензии
+    </h1>
+    <div class="position-relative">
+      <div class="swiper swiperCertificate">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/bn-cerificate1.png" alt="certificate">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/bn-cerificate2.png" alt="certificate">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/bn-cerificate3.png" alt="certificate">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/bn-cerificate1.png" alt="certificate">
+          </div>
+        </div>
+      </div>
+      <div class="custom-nav custom-nav2 prev-btn prev-btn3">
+        <img src="images/bn-swiper-left-arrow.png" alt="Previous">
+      </div>
+      <div class="custom-nav custom-nav2 next-btn next-btn3">
+        <img src="images/bn-swiper-right-arrow.png" alt="Next">
+      </div>  
+      <div class="custom-pagination custom-pagination4"></div>
+    </div>
+  </div>
+</div>
+
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const swiper = new Swiper('.swiper1', {
@@ -1107,6 +1140,39 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     pagination: {
       el: '.custom-pagination3',
+      clickable: true,
+    },
+    loop: true,
+  });
+});
+
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+  const swiper = new Swiper('.swiperCertificate', {
+    slidesPerView: 3,
+    spaceBetween: 20,
+    navigation: {
+      nextEl: '.next-btn3',
+      prevEl: '.prev-btn3',
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      1300: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      }
+    },
+    pagination: {
+      el: '.custom-pagination4',
       clickable: true,
     },
     loop: true,

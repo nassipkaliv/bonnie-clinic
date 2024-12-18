@@ -615,7 +615,7 @@ body {
   color: var(--blue);
 }
 
-.swiperPersonal {
+.swiperPersonal, .swiperCertificate {
   margin-top: 40px;
 }
 
@@ -623,7 +623,7 @@ body {
   padding: 5px;
 }
 
-.custom-pagination3 {
+.custom-pagination3, .custom-pagination4 {
   display: flex;
   justify-content: center;
   gap: 8px; 
