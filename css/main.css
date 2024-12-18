@@ -509,3 +509,60 @@ body {
   line-height: 130%;
   color: var(--blue);
 }
+
+.swiperReview {
+  margin-top: 40px;
+}
+
+.bn-review-swiper-block {
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+  background: #fff;
+  min-height: 345px;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bn-user {
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  background: var(--blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  color: #fff;
+}
+
+.bn-user-name {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: var(--blue);
+}
+
+.bn-user-level {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: var(--blue);
+  opacity: 0.6;
+}
+
+.bn-review-swiper-block-content-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: var(--blue);
+}
