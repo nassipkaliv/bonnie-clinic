@@ -36,6 +36,14 @@ body {
   color: #333333;
 }
 
+.page-breadcrumb {
+  margin-bottom: 0 !important;
+}
+
+.main-container {
+  padding-top: 0 !important;
+}
+
 .bn-intro {
   background: url("../images/bn-introbg.png");
   background-size: cover;
@@ -778,14 +786,6 @@ h1, h2, h3 {
   z-index: 1;
 }
 
-.page-breadcrumb {
-  margin-bottom: 0 !important;
-}
-
-.main-container {
-  padding-top: 0 !important;
-}
-
 @media (max-width: 768px) {
   .bn-intro-content {
     padding: 40px 0;
@@ -826,7 +826,6 @@ h1, h2, h3 {
 
   .bn-intro-img {
     width: 110%;
-    margin-left: -20px;
   }
 
   .bn-intro-block-doctor {
