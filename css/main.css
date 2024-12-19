@@ -313,43 +313,43 @@ body {
 
 .bn-grid-item-bg1 {
   background: url("../images/bn-grid-item1.png");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .bn-grid-item-bg2 {
   background: url("../images/bn-grid-item2.png");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .bn-grid-item-bg3 {
   background: url("../images/bn-grid-item3.png");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .bn-grid-item-bg4 {
   background: url("../images/bn-grid-item4.png");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .bn-grid-item-bg5 {
   background: url("../images/bn-grid-item5.png");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .bn-grid-item-bg6 {
   background: url("../images/bn-grid-item6.png");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .bn-grid-item-bg7 {
   background: url("../images/bn-grid-item7.png");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -734,6 +734,32 @@ h1, h2, h3 {
 
 .bn-only-mobile {
   display: none;
+}
+
+.bn-grid-item-bg3-1 {
+  background: url("../images/bn-grid-img1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.bn-specialization-grid2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.bn-grid-big-item {
+  margin-top: 20px;
+  width: 100%;
+  min-height: 500px;
+  max-height: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: url("../images/bn-grid-big-item-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 520px) {
