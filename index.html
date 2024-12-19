@@ -153,7 +153,7 @@
   <div class="container">
     <div class="bn-section-container">
       <div class="bn-section-left">
-        <img src="images/bn-section-left.png" alt="bn-section-left">
+        <img src="images/bn-section-left.png" class="bn-section-left-img" alt="bn-section-left">
       </div>
       <div class="bn-section-right">
         <h1 class="bn-section-right-title">Почему рекомендуется посещать профессионального косметолога</h1>
@@ -375,44 +375,47 @@
         <div class="bn-section-right-list">
           <div class="bn-section-right-list-container">
             <div>
-              <img src="images/bn-section-list-svg.png" alt="list-svg">
+              <img src="images/bn-section-list-svg.png" class="bn-list-svg" alt="list-svg">
             </div>
             <div class="bn-section-right-list-text">Все помещения нашей клиники соответствуют СанПиН.</div>
           </div>
           <div class="bn-section-right-list-container">
             <div>
-              <img src="images/bn-section-list-svg.png" alt="list-svg">
+              <img src="images/bn-section-list-svg.png" class="bn-list-svg"  alt="list-svg">
             </div>
             <div class="bn-section-right-list-text">СМы применяем новейшие аппаратные методики.</div>
           </div>
           <div class="bn-section-right-list-container">
             <div>
-              <img src="images/bn-section-list-svg.png" alt="list-svg">
+              <img src="images/bn-section-list-svg.png" class="bn-list-svg" alt="list-svg">
             </div>
             <div class="bn-section-right-list-text">Наше оборудование сертифицировано в РФ, США (FDA), ЕС.</div>
           </div>
           <div class="bn-section-right-list-container">
             <div>
-              <img src="images/bn-section-list-svg.png" alt="list-svg">
+              <img src="images/bn-section-list-svg.png" class="bn-list-svg" alt="list-svg">
             </div>
             <div class="bn-section-right-list-text">Наши специалисты сертифицированы и регулярно проходят переподготовку.</div>
           </div>
           <div class="bn-section-right-list-container">
             <div>
-              <img src="images/bn-section-list-svg.png" alt="list-svg">
+              <img src="images/bn-section-list-svg.png" class="bn-list-svg" alt="list-svg">
             </div>
             <div class="bn-section-right-list-text">Мы гарантируем строгое соблюдение норм стерильности/асептики и антисептики.</div>
           </div>
           <div class="bn-section-right-list-container mb-0">
             <div>
-              <img src="images/bn-section-list-svg.png" alt="list-svg">
+              <img src="images/bn-section-list-svg.png" class="bn-list-svg" alt="list-svg">
             </div>
             <div class="bn-section-right-list-text">Руководство клиники полностью доверяет свою красоту специалистам и лично контролирует качество услуг и уровень сервиса.</div>
           </div>
         </div>
       </div>
-      <div>
-        <img src="images/bn-section-img.png" alt="section-img">
+      <div class="bn-only-desktop">
+        <img src="images/bn-section-img.png" class="bn-section-left-img" alt="section-img">
+      </div>
+      <div class="bn-only-mobile">
+        <img src="images/bn-section-imgmob.png" class="bn-section-left-img" alt="section-img">
       </div>
     </div>
     <div>
@@ -1140,6 +1143,9 @@ document.addEventListener("DOMContentLoaded", function () {
       prevEl: '.prev-btn2',
     },
     breakpoints: {
+      320: {
+        slidesPerView : 1,
+      },
       768: {
         slidesPerView: 2,
         spaceBetween: 15,
@@ -1167,6 +1173,9 @@ document.addEventListener("DOMContentLoaded", function () {
         prevEl: '.prev-btn3',
       },
       breakpoints: {
+        320: {
+          slidesPerView : 1,
+        },
         768: {
           slidesPerView: 2,
           spaceBetween: 15,
@@ -1194,6 +1203,9 @@ document.addEventListener("DOMContentLoaded", function () {
       prevEl: '.prev-btn5',
     },
     breakpoints: {
+      320: {
+        slidesPerView : 1,
+      },
       768: {
         slidesPerView: 2,
         spaceBetween: 15,

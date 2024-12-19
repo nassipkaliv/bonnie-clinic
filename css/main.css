@@ -420,6 +420,8 @@ body {
   text-align: center;
   color: var(--blue);
   margin-top: 20px;
+  background: #f7f9fb;
+  padding-bottom: 20px;
 }
 
 .custom-nav2 {
@@ -441,6 +443,7 @@ body {
   font-size: 14px;
   line-height: 120%;
   color: #fff;
+  border-color: transparent;
 }
 
 .swiperRabota {
@@ -652,7 +655,7 @@ body {
   gap: 20px;
 }
 
-h1 {
+h1, h2, h3 {
   margin-bottom: 0;
 }
 
@@ -815,7 +818,7 @@ h1 {
     padding: 0;
   }
 
-  .bn-section-left img {
+  .bn-section-left-img {
     max-width: 100%;
     width: 100%;
     height: 370px;
@@ -827,7 +830,7 @@ h1 {
 
   .bn-section-right-list {
     padding: 0 16px;
-    padding-top: 20px;
+    padding-top: 16px;
   }
 
   .bn-section-right-list-container {
@@ -878,5 +881,35 @@ h1 {
     background: url("../images/bn-grid-big-item-bg.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+  }
+
+  .bn-section-container2 {
+    flex-direction: column;
+  }
+
+  .bn-section-right-text {
+    margin: 20px 0;
+  }
+
+  .bn-list-svg {
+    height: auto;
+    width: auto;
+    max-width: auto;
+  }
+
+  .custom-nav {
+    top: 50%;
+  }
+
+  .bn-section-container2 {
+    margin-bottom: 32px;
+  }
+
+  .bn-section-title-h2 {
+    font-size: 22px;
+  }
+
+  .bn-rabota-img {
+    width: 100%;
   }
 }
