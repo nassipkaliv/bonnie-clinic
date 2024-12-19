@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <script src="js/bootstrap.bundle.js"></script>
@@ -79,6 +79,7 @@
         </button>
       </div>
       <div class="bn-intro-block">
+        <img src="images/bn-intro-img.png" alt="bn-intro-img" class="bn-intro-img bn-only-mobile">
         <div class="bn-intro-block-doctor">
           <div class="bn-intro-block-doctor-left">
             <div class="bn-intro-block-doctor-name">
@@ -89,7 +90,7 @@
             </div>
           </div>
           <div>
-            <img src="images/bn-doctor-svg.png" alt="doctor-svg">
+            <img src="images/bn-doctor-svg.png" class="bn-doctor-svg" alt="doctor-svg">
           </div>
         </div>
       </div>
@@ -769,10 +770,10 @@
           </div>
         </div>
       </div>
-      <div class="custom-nav custom-nav2 prev-btn prev-btn3">
+      <div class="custom-nav custom-nav2 prev-btn prev-btn5">
         <img src="images/bn-swiper-left-arrow.png" alt="Previous">
       </div>
-      <div class="custom-nav custom-nav2 next-btn next-btn3">
+      <div class="custom-nav custom-nav2 next-btn next-btn5">
         <img src="images/bn-swiper-right-arrow.png" alt="Next">
       </div>  
       <div class="custom-pagination custom-pagination3"></div>
@@ -1024,10 +1025,10 @@
           </div>
         </div>
       </div>
-      <div class="custom-nav custom-nav2 prev-btn prev-btn3">
+      <div class="custom-nav custom-nav2 prev-btn prev-btn4">
         <img src="images/bn-swiper-left-arrow.png" alt="Previous">
       </div>
-      <div class="custom-nav custom-nav2 next-btn next-btn3">
+      <div class="custom-nav custom-nav2 next-btn next-btn4">
         <img src="images/bn-swiper-right-arrow.png" alt="Next">
       </div>  
       <div class="custom-pagination custom-pagination4"></div>
@@ -1046,15 +1047,23 @@ document.addEventListener("DOMContentLoaded", function () {
       prevEl: '.prev-btn',
     },
     breakpoints: {
+
+      320: {
+        slidesPerView: 1.6,
+        spaceBetween: 20,
+      },
       768: {
         slidesPerView: 2,
+        spaceBetween: 20,
       },
       1024: {
         slidesPerView: 3,
+        spaceBetween: 20,
       },
 
       1300: {
         slidesPerView: 4,
+        spaceBetween: 20,
       }
     },
   });
@@ -1121,8 +1130,8 @@ document.addEventListener("DOMContentLoaded", function () {
     slidesPerView: 4,
     spaceBetween: 20,
     navigation: {
-      nextEl: '.next-btn3',
-      prevEl: '.prev-btn3',
+      nextEl: '.next-btn5',
+      prevEl: '.prev-btn5',
     },
     breakpoints: {
       768: {
@@ -1154,8 +1163,8 @@ document.addEventListener("DOMContentLoaded", function () {
     slidesPerView: 3,
     spaceBetween: 20,
     navigation: {
-      nextEl: '.next-btn3',
-      prevEl: '.prev-btn3',
+      nextEl: '.next-btn4',
+      prevEl: '.prev-btn4',
     },
     breakpoints: {
       768: {

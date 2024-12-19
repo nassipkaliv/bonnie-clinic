@@ -727,3 +727,78 @@ h1 {
 .bn-collapsed-content-btn {
   margin-top: 20px;
 }
+
+.bn-only-mobile {
+  display: none;
+}
+
+@media (max-width: 520px) {
+  .bn-intro-content {
+    padding: 40px 0;
+    flex-direction: column;
+  }
+
+  .bn-intro {
+    background: none;
+    background: #f7f9fb;
+  }
+
+  .bn-intro-block {
+    width: 100%;
+  }
+
+  .bn-intro-title {
+    font-size: 26px;
+    margin-bottom: 16px;
+  }
+
+  .bn-intro-subtitle {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+
+  .bn-intro-grid {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .bn-intro-grid-block {
+    padding: 16px;
+  }
+
+  .bn-only-mobile {
+    display: block;
+  }
+
+  .bn-intro-img {
+    width: 110%;
+    margin-left: -20px;
+  }
+
+  .bn-intro-block-doctor {
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    justify-content: space-between;
+    height: auto;
+    bottom: 40px;
+  }
+
+  .bn-doctor-svg {
+    width: 27px;
+    height: 54px;
+  }
+
+  .prev-btn {
+    left: -10px;
+  }
+
+  .next-btn {
+    right: -10px;
+  }
+
+  .bn-intro-swiper {
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+}
