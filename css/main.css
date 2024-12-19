@@ -221,6 +221,7 @@ body {
 
 .bn-section-left img {
   border-radius: 10px;
+  max-width: none;
 }
 
 .bn-section-right {
@@ -419,9 +420,15 @@ body {
   line-height: 130%;
   text-align: center;
   color: var(--blue);
-  margin-top: 20px;
   background: #f7f9fb;
+  padding-top: 28px;
   padding-bottom: 20px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 100%;
+  position: relative;
+  top: -8px;
+  z-index: 0;
 }
 
 .custom-nav2 {
@@ -762,7 +769,16 @@ h1, h2, h3 {
   background-repeat: no-repeat;
 }
 
-@media (max-width: 520px) {
+.bn-section-left-img {
+  max-width: none;
+}
+
+.bn-rabota-img {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
   .bn-intro-content {
     padding: 40px 0;
     flex-direction: column;
