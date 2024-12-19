@@ -457,6 +457,7 @@ body {
 .bn-review-container {
   display: flex;
   gap: 20px;
+  justify-content: space-between;
 }
 
 .bn-review-container-left {
@@ -793,11 +794,11 @@ h1, h2, h3 {
   }
 
   .prev-btn {
-    left: -10px;
+    left: 0px;
   }
 
   .next-btn {
-    right: -10px;
+    right: 0px;
   }
 
   .bn-intro-swiper {
@@ -911,5 +912,69 @@ h1, h2, h3 {
 
   .bn-rabota-img {
     width: 100%;
+  }
+
+  .bn-review-container {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .bn-review-container-left {
+    width: 100%;
+  }
+
+  .bn-review-text {
+    width: 100%;
+    font-size: 22px;
+  }
+
+  .bn-review-block {
+    width: 60%;
+  }
+
+  .bn-review-services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+    gap: 16px;
+  }
+
+  .bn-review-swiper-block {
+    margin: 0 25px;
+  }
+
+  .bn-section-text {
+    margin-top: 16px;
+  }
+
+  .bn-personal-block {
+    min-height: 420px;
+    margin: 0 80px;
+  }
+
+  .bn-section-collapse {
+    margin-top: 24px;
+  }
+
+  .bn-collapsed-content-right {
+    display: none;
+  }
+
+  .bn-collapsed-content-left {
+    width: 100%;
+  }
+
+  .bn-swiper-certificate-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bn-swiper-certificate-slide img {
+    width: 100%;
+  }
+
+  .custom-pagination3, .custom-pagination4 {
+    margin-top: 25px;
   }
 }

@@ -505,40 +505,6 @@
       <div class="bn-review-container-left">
         <h1 class="bn-section-title">Отзывы о центре</h1>
         <div class="bn-review-text">Более 200 реальных отзывов о  многопрофильном медицинском центре «Bonne Clinique» </div>
-        <div class="bn-review-services">
-          <div class="bn-review-service-block">
-            <div>
-              <img src="images/bn-yandex.svg" alt="bn-yandex">
-            </div>
-            <div class="bn-review-service-block-text">
-              5.0
-            </div>
-          </div>
-          <div class="bn-review-service-block">
-            <div>
-              <img src="images/bn-2gis.svg" alt="2gis">
-            </div>
-            <div class="bn-review-service-block-text">
-              4.5
-            </div>
-          </div>
-          <div class="bn-review-service-block">
-            <div>
-              <img src="images/bn-gmaps.svg" alt="gmaps">
-            </div>
-            <div class="bn-review-service-block-text">
-              5.0
-            </div>
-          </div>
-          <div class="bn-review-service-block">
-            <div>
-              <img src="images/bn-zoon.png" alt="zoon">
-            </div>
-            <div class="bn-review-service-block-text">
-              4.5
-            </div>
-          </div>
-        </div>
       </div>
       <div class="bn-review-container-right">
         <div class="bn-review-block">
@@ -552,6 +518,41 @@
           <div class="bn-review-block-text">
             На основе 401 оценок
           </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="bn-review-services">
+      <div class="bn-review-service-block">
+        <div>
+          <img src="images/bn-yandex.svg" alt="bn-yandex">
+        </div>
+        <div class="bn-review-service-block-text">
+          5.0
+        </div>
+      </div>
+      <div class="bn-review-service-block">
+        <div>
+          <img src="images/bn-2gis.svg" alt="2gis">
+        </div>
+        <div class="bn-review-service-block-text">
+          4.5
+        </div>
+      </div>
+      <div class="bn-review-service-block">
+        <div>
+          <img src="images/bn-gmaps.svg" alt="gmaps">
+        </div>
+        <div class="bn-review-service-block-text">
+          5.0
+        </div>
+      </div>
+      <div class="bn-review-service-block">
+        <div>
+          <img src="images/bn-zoon.png" alt="zoon">
+        </div>
+        <div class="bn-review-service-block-text">
+          4.5
         </div>
       </div>
     </div>
@@ -1074,16 +1075,16 @@
     <div class="position-relative">
       <div class="swiper swiperCertificate">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
+          <div class="swiper-slide bn-swiper-certificate-slide">
             <img src="images/bn-cerificate1.png" alt="certificate">
           </div>
-          <div class="swiper-slide">
+          <div class="swiper-slide bn-swiper-certificate-slide">
             <img src="images/bn-cerificate2.png" alt="certificate">
           </div>
-          <div class="swiper-slide">
+          <div class="swiper-slide bn-swiper-certificate-slide">
             <img src="images/bn-cerificate3.png" alt="certificate">
           </div>
-          <div class="swiper-slide">
+          <div class="swiper-slide bn-swiper-certificate-slide">
             <img src="images/bn-cerificate1.png" alt="certificate">
           </div>
         </div>
@@ -1239,6 +1240,9 @@ document.addEventListener("DOMContentLoaded", function () {
       prevEl: '.prev-btn4',
     },
     breakpoints: {
+      320: {
+        slidesPerView: 1,
+      },
       768: {
         slidesPerView: 2,
         spaceBetween: 15,
