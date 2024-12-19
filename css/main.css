@@ -778,6 +778,14 @@ h1, h2, h3 {
   z-index: 1;
 }
 
+.page-breadcrumb {
+  margin-bottom: 0 !important;
+}
+
+.main-container {
+  padding-top: 0 !important;
+}
+
 @media (max-width: 768px) {
   .bn-intro-content {
     padding: 40px 0;
@@ -971,7 +979,7 @@ h1, h2, h3 {
   }
 
   .bn-review-block {
-    width: 60%;
+    width: fit-content;
   }
 
   .bn-review-services {
