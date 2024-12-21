@@ -831,6 +831,37 @@ h1, h2, h3 {
   border-bottom: 2px solid var(--lt-pink);
 }
 
+.bn-example-slide {
+  display: flex;
+  position: relative;
+  z-index: 99;
+}
+
+.bn-example-slide-left {
+  width: 51%;
+  display: flex;
+}
+
+.bn-example-slide-block {
+  position: relative;
+}
+
+.bn-example-slide-block-text {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  z-index: 9;
+  top: 30px;
+  left: 50%; 
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+
 @media (max-width: 768px) {
   .bn-intro-content {
     padding: 40px 0;
