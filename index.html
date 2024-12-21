@@ -15,6 +15,29 @@
   
 <!--  Header  -->
 
+<div class="bn-nav-site">
+  <div class="container">
+    <div class="bn-nav-site-container">
+      <a href="#bn-about" class="bn-nav-site-section active">
+        О процедуре
+      </a>
+      <a href="#bn-examples" class="bn-nav-site-section">
+        Примеры
+      </a>
+      <a href="#bn-reviews" class="bn-nav-site-section">
+        Отзывы
+      </a>
+      <a href="#bn-doctors" class="bn-nav-site-section">
+        Врачи
+      </a>
+      <a href="#bn-price" class="bn-nav-site-section">
+        Стоимость
+      </a>
+    </div>
+  </div>
+</div>
+
+
 <div class="bn-intro">
   <div class="container">
     <div class="bn-intro-content">
@@ -149,7 +172,7 @@
   </div>
 </div>
 
-<div class="bn-section">
+<div class="bn-section" id="bn-about">
   <div class="container">
     <div class="bn-section-container">
       <div class="bn-section-left">
@@ -473,7 +496,7 @@
   </div>
 </div>
 
-<div class="bn-section">
+<div class="bn-section" id="bn-examples">
   <div class="container">
     <h1 class="bn-section-title text-center">Примеры работ</h1>
     <div class="position-relative">
@@ -513,7 +536,7 @@
   </div>
 </div>
 
-<div class="bn-section bn-sectionBg2">
+<div class="bn-section bn-sectionBg2" id="bn-reviews">
   <div class="container">
     <div class="bn-review-container">
       <div class="bn-review-container-left">
@@ -709,7 +732,7 @@
   </div>
 </div>
 
-<div class="bn-section">
+<div class="bn-section" id="bn-doctors">
   <div class="container">
     <h1 class="bn-section-title text-center">Персонал</h1>
     <div class="bn-section-text">Сплоченная команда опытных врачей, способных решить любую проблему с вашим здоровьем.</div>
@@ -854,12 +877,17 @@
       <div class="custom-nav custom-nav2 next-btn next-btn5">
         <img src="images/bn-swiper-right-arrow.png" alt="Next">
       </div>  
-      <div class="custom-pagination custom-pagination3"></div>
     </div>
+    <button class="bn-rabota-btn">
+      Посмотреть всех врачей
+      <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1L5 5.5L1 10" stroke="white" stroke-linecap="round" />
+      </svg>
+    </button>
   </div>
 </div>
 
-<div class="bn-section bn-sectionBg2">
+<div class="bn-section bn-sectionBg2" id="bn-price">
   <div class="container">
     <h1 class="bn-section-title">Самые выгодные цены</h1>
     <div class="bn-section-collapse">
@@ -1284,6 +1312,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 </script>
+
+<script src="js/app.js"></script>
 
 </body>
 </html>
