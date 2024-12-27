@@ -789,7 +789,6 @@ h1, h2, h3 {
 
 .bn-nav-site {
   background: #fff;
-  position: fixed;
   padding: 0px 20px;
   width: 100%;
   z-index: 999;
@@ -797,7 +796,7 @@ h1, h2, h3 {
 }
 
 .bn-nav-site.scrolled {
-  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1); /* Тень при прокрутке */
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .bn-nav-site-container {
@@ -844,6 +843,10 @@ h1, h2, h3 {
 
 .bn-example-slide-block {
   position: relative;
+}
+
+.bn-example-slide-block img {
+  max-width: none !important;
 }
 
 .bn-example-slide-block-text {

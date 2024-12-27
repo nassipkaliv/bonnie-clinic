@@ -20,15 +20,6 @@ document.querySelectorAll('.bn-nav-site-section').forEach(section => {
 });
 
 
-window.addEventListener('scroll', function () {
-  const navSite = document.querySelector('.bn-nav-site');
-  if (window.scrollY > 10) {
-    navSite.classList.add('scrolled'); 
-  } else {
-    navSite.classList.remove('scrolled'); 
-  }
-});
-
 
 document.addEventListener('DOMContentLoaded', () => {
   const sections = document.querySelectorAll('#bn-about, #bn-examples, #bn-reviews, #bn-doctors, #bn-price');
